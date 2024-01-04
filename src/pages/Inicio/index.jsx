@@ -1,11 +1,12 @@
 import Cabecalho from "components/Cabecalho";
 import Rodape from "componentes/Rodape";
+import Banner from "components/Banner";
 
 function Inicio() {
   return (
     <>
       <Cabecalho />
-      <h1>Ola mundo</h1>
+      <Banner imagem="home" />
       <Rodape />
     </>
   );
